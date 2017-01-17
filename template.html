@@ -4,6 +4,18 @@
         body {
             margin: 0;
         }
+        .vertical-stack {
+            margin-top: 0;
+            width: 350px;
+            height: 200px;
+            /*margin-left: ;*/
+        }
+        #red-block {
+            background-color: red
+        }
+        #blue-block {
+            background-color: blue
+        }
         .square {
             display: inline-block;
             /*margin: 50px;*/
@@ -15,7 +27,13 @@
     </style>
 </head>
 <body>
-    <div class="square"></div>
-    <div class="square"></div>
+    <div class="vertical-stack" id="red-block">
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="vertical-stack" id="blue-block">
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
 </body>
 </html>
